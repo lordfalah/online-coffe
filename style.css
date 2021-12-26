@@ -1,0 +1,135 @@
+/* opacity slider template */
+body{
+    /* background-color: #041C32; */
+}
+
+.content-template1{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#carouselExampleCaptions{
+    z-index: -1;
+}
+
+
+
+/* .content-template1 .img-1, .img-2, .img-3{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-origin: border-box; 
+} */
+
+/* barista */
+.picture-barista{
+    height: 55%;
+    width: 100%;
+}
+
+.picture-barista img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+
+/* section content1 */
+
+section#content1{
+    margin-bottom: -20%;
+}
+
+section{
+    margin-top: 200px;
+}
+
+
+
+/* img make e coffe by client*/
+.img-make-coffe{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 200px;
+}
+
+
+
+/* testimonii */
+#testimoni .content-testimoni{
+    width: 50%;
+    border-radius: 50px
+}
+
+
+.left-button{
+    background-image: url("/img-stock/pngegg\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 6%;
+}
+
+.right-button{
+    background-image: url("/img-stock/pngegg\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 6%;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+/* responsive */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .advantage-coffe4, .advantage-coffe5{
+        width: 100% !important;
+    }
+
+    #testimoni .content-testimoni{
+        width: 100% !important;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .advantage-coffe4, .advantage-coffe5{
+        width: 100% !important;
+    }
+
+    #testimoni .content-testimoni{
+        width: 100% !important;
+    }
+
+    .left-button{
+        width: 7.5%;
+    }
+    
+    .right-button{
+        width: 7.5%;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #testimoni .content-testimoni{
+        width: 75%;
+    }
+
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+
+/* // Large devices (desktops, less than 1500px) */
+@media (max-width: 1499.98px) {
+
+}
