@@ -1,7 +1,5 @@
 /* opacity slider template */
-body{
-    /* background-color: #041C32; */
-}
+
 
 .content-template1{
     width: 100%;
@@ -13,13 +11,6 @@ body{
 }
 
 
-
-/* .content-template1 .img-1, .img-2, .img-3{
-    height: 800px;
-    width: 100%;
-    background-size: cover;
-    background-origin: border-box; 
-} */
 
 /* barista */
 .picture-barista{
@@ -55,6 +46,19 @@ section{
     border-bottom-left-radius: 200px;
 }
 
+
+
+/* place coffe here */
+#place-coffe .content-place .shadow-place{
+    background-color: black;
+    /* fill-opacity: 5%; */
+    filter: blur(1.1rem) opacity(0.6);
+    height: 50%;
+    bottom: -4%;
+    right: -4%;
+    z-index: -1;
+    border-radius: 5%;
+}
 
 
 /* testimonii */
@@ -94,6 +98,13 @@ section{
     #testimoni .content-testimoni{
         width: 100% !important;
     }
+
+    #place-coffe .content-place .shadow-place{
+        bottom: 3%;
+        right: 3%;
+        filter: blur(0.6rem) opacity(0.5);
+    }
+    
 }
 
 /* // Small devices (landscape phones, less than 768px) */
