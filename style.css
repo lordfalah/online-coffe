@@ -10,12 +10,26 @@
     z-index: -1;
 }
 
+/* .component{
+    height: 100px;
+} */
 
 
-/* barista */
+/* barista make e coffe */
+
+.box-img{
+    height: 30%;
+    background-color: blanchedalmond;
+    filter: blur(25px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .picture-barista{
-    height: 55%;
-    width: 100%;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px 0px rgba(24, 24, 24, 0.75);
 }
 
 .picture-barista img{
@@ -23,14 +37,13 @@
     height: 100%;
     background-size: cover;
     background-origin: border-box;
+    
 }
 
 
 /* section content1 */
 
-section#content1{
-    margin-bottom: -20%;
-}
+
 
 section{
     margin-top: 200px;
@@ -104,11 +117,28 @@ section{
         right: 3%;
         filter: blur(0.6rem) opacity(0.5);
     }
+
+
+    .icon-place{
+        /* width: 10% !important; */
+        padding: 20px !important;
+    }
     
+    .icon-acc{
+        padding: 10px;
+    }
+
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+
+    .box-img{
+        /* bottom: 25px;
+        left: 25px; */
+        filter: blur(15px);
+    }
+
     .advantage-coffe4, .advantage-coffe5{
         width: 100% !important;
     }
@@ -124,12 +154,25 @@ section{
     .right-button{
         width: 7.5%;
     }
+
+
+    .icon-place{
+        width: 20% !important;
+    }
 }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     #testimoni .content-testimoni{
         width: 75%;
+    }
+
+    .icon-place{
+        width: 17%;
+    }
+
+    .icon-acc{
+        width: 20%;
     }
 
 }
