@@ -1,4 +1,13 @@
 /* opacity slider template */
+body{
+    /* background-color: #FFF8F3; */
+    background-color: #04293A;
+}
+
+.parent-place{
+    background-color: #064663;
+}
+
 
 
 .content-template1{
@@ -18,18 +27,19 @@
 /* barista make e coffe */
 
 .box-img{
-    height: 30%;
-    background-color: blanchedalmond;
-    filter: blur(25px);
+    height: 35%;
+    background-color: #ECB365;
+    filter: blur(45px);
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: -1;
+    z-index: 1;
 }
 
 .picture-barista{
     overflow: hidden;
-    box-shadow: 10px 10px 5px 0px rgba(24, 24, 24, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(24, 24, 24, 0.70);
+    /* z-index: -1; */
 }
 
 .picture-barista img{
@@ -37,7 +47,8 @@
     height: 100%;
     background-size: cover;
     background-origin: border-box;
-    
+    position:relative;
+    z-index: 5;
 }
 
 
@@ -60,6 +71,17 @@ section{
 }
 
 
+#make-coffe h2:nth-child(1){
+    font-size: 4vw;
+}
+
+#make-coffe h2:nth-child(2){
+    font-size: 3.5vw;
+}
+
+
+
+
 
 /* place coffe here */
 #place-coffe .content-place .shadow-place{
@@ -71,6 +93,18 @@ section{
     right: -4%;
     z-index: -1;
     border-radius: 5%;
+}
+
+
+
+#place-buy .place-online {
+   background-color: #04293A;
+}
+
+
+/* more list coffe */
+.bg-menu{
+    background-color: #04293A;
 }
 
 
@@ -128,6 +162,14 @@ section{
         padding: 10px;
     }
 
+
+    #make-coffe h2:nth-child(1){
+        font-size: 6vw;
+    }
+    
+    #make-coffe h2:nth-child(2){
+        font-size: 5.5vw;
+    }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -157,7 +199,12 @@ section{
 
 
     .icon-place{
-        width: 20% !important;
+        width: 15% !important;
+    }
+
+
+    .text-sizeing{
+        font-size: 4vw;
     }
 }
 
@@ -172,6 +219,11 @@ section{
     }
 
     .icon-acc{
+        width: 20%;
+    }
+
+
+    #make-coffe h2 img{
         width: 20%;
     }
 
